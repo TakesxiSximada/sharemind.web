@@ -1,0 +1,36 @@
+{
+  "name": "sharemind",
+  "version": "1.0.0",
+  "description": "[![Circle CI](https://circleci.com/gh/TakesxiSximada/sharemind/tree/master.svg?style=svg)](https://circleci.com/gh/TakesxiSximada/sharemind/tree/master)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TakesxiSximada/sharemind.git"
+  },
+  "author": "TakesxiSximada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakesxiSximada/sharemind/issues"
+  },
+  "homepage": "https://github.com/TakesxiSximada/sharemind",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "css-loader": "^0.16.0",
+    "director": "^1.2.8",
+    "html-loader": "^0.3.0",
+    "jquery": "^2.1.4",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "stylus-loader": "^1.2.1",
+    "vue": "^0.12.10",
+    "webpack": "^1.11.0"
+  }
+}
